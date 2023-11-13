@@ -107474,7 +107474,7 @@ if(d0.gwz(d0)){s=d0.b
 r=s.R(0,"KycApply")
 q=d0.a
 r=A.ad(r,q)
-p=A.ad(s.R(0,"kycReg"),q)
+p=A.ad(s.R(0,"KycReg"),q)
 o=A.ad(s.R(0,"Email"),q)
 n=A.ad(s.R(0,"UserId"),q)
 m=A.ad(s.R(0,"FullName"),q)
@@ -109115,7 +109115,7 @@ k=$.am
 o=(k==null?$.am=$.bw():k).bf(0,d)
 A.b_(o,s,!0)
 s=A.cj(new A.bj(o))
-m=A.A(A.a([n,B.aH,l,B.aH,A.hc(new A.aNe(),A.cm(s,s.gbl().bo(c)).mR(0,"kycReg",!0).fb(),m)],r),B.h,B.hO,B.c,e)
+m=A.A(A.a([n,B.aH,l,B.aH,A.hc(new A.aNe(),A.cm(s,s.gbl().bo(c)).mR(0,"KycReg",!0).fb(),m)],r),B.h,B.hO,B.c,e)
 s=m}else s=B.D
 s=A.A(A.a([p,s],r),B.h,B.u,B.c,e)
 p=$.am
@@ -113472,7 +113472,7 @@ s=A.az(new A.z(B.X,A.q(A.a([d,A.q(A.a([r,B.q,A.q(A.a([B.amt,A.n(c,m,m,m,m,B.fL,m
 d=s}c=t.p
 if(A.v(a,m,g).w.a.gG()>600){g=A.bS(15)
 s=A.A(A.a([A.aB(m,m,B.n,B.bR,m,m,m,30,m,m,m,m,m,3),B.e_,B.H7],c),B.h,B.e,B.c,m)
-r=h.k1===!1?A.q(A.a([A.A(A.a([A.A(A.a([B.rq,A.b4(B.j,12,B.H,B.w,new A.aYA(a),"Verify")],c),B.i,B.e,B.c,m)],c),B.h,B.fn,B.c,m)],c),B.h,B.e,B.c):A.aB(m,m,B.n,m,m,m,m,m,m,m,m,m,m,m)
+r=h.k1===!1&&h.go===!1?A.q(A.a([A.A(A.a([A.A(A.a([B.rq,A.b4(B.j,12,B.H,B.w,new A.aYA(a),"Verify")],c),B.i,B.e,B.c,m)],c),B.h,B.fn,B.c,m)],c),B.h,B.e,B.c):A.aB(m,m,B.n,m,m,m,m,m,m,m,m,m,m,m)
 q=h.x2
 p=h.y1
 o=h.x1
@@ -113489,7 +113489,7 @@ o.toString
 n.toString
 q=A.A(A.a([new A.ez(l,q,m),new A.ez(k,p,m),new A.ez(j,o,m),new A.ez(i,n,m)],c),B.i,B.u,B.c,m)}g=A.az(new A.z(B.X,A.q(A.a([s,r,q],c),B.h,B.e,B.c),m),B.m,m,new A.cp(g,B.C))}else{g=A.bS(15)
 s=A.A(A.a([A.aB(m,m,B.n,B.bR,m,m,m,30,m,m,m,m,m,3),B.e_,B.H7],c),B.h,B.e,B.c,m)
-r=h.k1===!1?A.q(A.a([A.A(A.a([A.q(A.a([B.rq,A.b4(B.j,12,B.H,B.w,new A.aYB(a),"Verify")],c),B.h,B.e,B.c)],c),B.h,B.fn,B.c,m)],c),B.h,B.e,B.c):A.aB(m,m,B.n,m,m,m,m,m,m,m,m,m,m,m)
+r=h.k1===!1&&h.go===!1?A.q(A.a([A.A(A.a([A.q(A.a([B.rq,A.b4(B.j,12,B.H,B.w,new A.aYB(a),"Verify")],c),B.h,B.e,B.c)],c),B.h,B.fn,B.c,m)],c),B.h,B.e,B.c):A.aB(m,m,B.n,m,m,m,m,m,m,m,m,m,m,m)
 q=h.x2
 q.toString
 p=h.y1
